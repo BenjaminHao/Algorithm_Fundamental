@@ -1,2 +1,2 @@
 # Algorithm_Fundamental
-This repository is for Algorithm course in BCIT.
+This repository is for Algorithm course at BCIT.
