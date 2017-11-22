@@ -32,6 +32,7 @@ String toString();
     AdjGraph.java - implements the AdjGraph as described above
 
     In your main() you can hardcode the edges (for example, you might have the line myGraph.addEdge(1,2) to create and store an edge from vertex 1 to vertex 2).
+    
     |  |0 1 2 3 4|
     |---|---|
     |0| 0 **1** 0 **1** **1**|
@@ -80,6 +81,7 @@ In lecture we covered in detail the pseudocode and algorithms for DFS and BFS. T
     Your DFS will be added to your Graph class (not Vertex or Edge), and it will implement both DFS() and dfs(v), as described in the pseudocode. You will break ties by choosing the vertex that comes next in lexicographic order.
 
     Test your DFS by having it print the vertex labels in the order that they are visited. For example, if the input graph is the
+    
     |  | 0 1 2 3 4 5 6 7|
     |---|---|
     |0| 0 **1** **1** 0 **1** 0 0 0|
@@ -93,21 +95,22 @@ In lecture we covered in detail the pseudocode and algorithms for DFS and BFS. T
 
 3D hypercube shown to the left, your DFS might produce:
 
-***visiting vertex 0
-visiting vertex 1
-visiting vertex 3
-visiting vertex 2
-visiting vertex 6
-visiting vertex 4
-visiting vertex 5
-visiting vertex 7***
+    visiting vertex 0
+    visiting vertex 1
+    visiting vertex 3
+    visiting vertex 2
+    visiting vertex 6
+    visiting vertex 4
+    visiting vertex 5
+    visiting vertex 7
 
 2. [ 2 mark] Now you can code BFS. Again, use the pseudocode from the textbook, and display the order that the vertices are visited. Using the same input graph from step 2 you should get:
-    ***visiting vertex 0
+
+    visiting vertex 0
     visiting vertex 1
     visiting vertex 2
     visiting vertex 4
     visiting vertex 3
     visiting vertex 5
     visiting vertex 6
-    visiting vertex 7***
+    visiting vertex 7
